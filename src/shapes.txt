@@ -1,11 +1,8 @@
 Point(3.4, 5.5)
 Line(Point(1.2, 3.4), Point(5, 6))
 Circle(Point(5, 6), 7)
-
-// --- Корректные, но с "пограничными" значениями ---
 Point(0, 0)
 Point(-10.5, -0.25)
-Point(1e3, 2.5E-2)
 Point(  42  ,  17  )
 Line(Point(0, 0), Point(0, 0))
 Line(Point(-1, -1), Point(1, 1))
